@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  padding: 30px;
+  border: 2px solid green;
+  overflow: auto;
+  
+}
+.destination-container {
+  text-align: left;
+  margin-right: auto;
+  border: solid 2px black;
+  width: 80%;
+}
+.heading {
+  font-size: 40px;
+}
+.input {
+  border-width: 0px;
+  background-color: #f1f5f9;
+  padding: 10px;
+}
+.search-icon {
+  width: 30px;
+
+  background-color: #f1f5f9;
+}
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.lists-container {
+  list-style-type: none;
+}
+@media (min-width: 768px) {
+  .lists-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

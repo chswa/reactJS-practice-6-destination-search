@@ -1,0 +1,22 @@
+/* Write your CSS here */
+*box-sizing: border-box;
+.list-container {
+  
+}
+.heading1 {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #252627;
+}
+.image {
+  width: 20%;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border: 2px red solid;
+  padding-bottom: 20px;
+  align-items: flex-start;
+ 
+}
